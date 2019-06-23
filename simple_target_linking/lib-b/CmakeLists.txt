@@ -1,0 +1,14 @@
+add_library(LibB STATIC)
+
+target_sources(
+    LibB
+    PRIVATE
+    LibB.h
+    LibB.cpp
+)
+
+target_include_directories(
+    LibB
+    PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)

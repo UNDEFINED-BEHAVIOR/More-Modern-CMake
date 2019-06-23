@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.14)
+
+project(SimpleTargetLinking)
+
+add_subdirectory(lib-a)
+add_subdirectory(lib-b)
+add_subdirectory(lib-c)
+add_subdirectory(main)
