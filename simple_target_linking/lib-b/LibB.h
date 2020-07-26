@@ -1,6 +1,9 @@
 #pragma once
+#include <string>
 
-class LibB {
+class LibB
+{
 public:
-    static int minus_2(int input);
+  virtual std::string name();
+  void say_hi();
 };

@@ -1,5 +1,12 @@
 #include "LibB.h"
-#include <cstdlib>
-int LibB::minus_2(int input){
-    return input - 2;
+#include <iostream>
+
+std::string LibB::name()
+{
+  return std::string("LibB");
+}
+
+void LibB::say_hi()
+{
+  std::cout << "Hi from: " << name() << std::endl;
 }

@@ -1,6 +1,6 @@
 #include "LibC.h"
-#include <cstdlib>
-int LibC::minus_5(int input)
+
+std::string LibC::name()
 {
-    return minus_2(input) - 3;
+  return std::string("LibC");
 }

@@ -2,5 +2,5 @@
 
 class LibA {
 public:
-    static int squared(int input);
+    static void hi_fn();
 };
