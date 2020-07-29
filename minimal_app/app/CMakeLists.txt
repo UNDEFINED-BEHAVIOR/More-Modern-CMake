@@ -1,0 +1,9 @@
+PROJECT(App)
+
+ADD_EXECUTABLE(${PROJECT_NAME})
+
+TARGET_SOURCES(
+    ${PROJECT_NAME}
+    PRIVATE
+    "src/main.cpp"
+)
